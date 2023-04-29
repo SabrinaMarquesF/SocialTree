@@ -1,0 +1,111 @@
+body {
+    margin-top: 10%;
+    font-family: Playfair Display, sans-serif;
+    background-image: url('IMG/fundo.png'); 
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 0%;
+}
+
+.perfil {
+    background-image: url(img/perfil.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 2px 4px 6px rgba(189, 181, 181, 0.3);
+}
+
+.nome {
+    font-family: Playfair Display, sans-serif;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(136, 133, 133);
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-family: Playfair Display, sans-serif;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+.links {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.icones {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones-container .icones_color {
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.icones-container {
+    background-color: rgb(207, 201, 201);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bottom {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 243);
+    width: 200px;
+    height: 30px;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.pulse {
+    display: inline-block;
+    transform: scale(1);
+    animation-play-state: paused;
+}
+
+.pulse:hover {
+    animation-play-state: running;
+    animation: pulse 2s;
+}
+
+a{
+    text-decoration: none;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
