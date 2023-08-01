@@ -1,7 +1,7 @@
 body {
     margin-top: 10%;
     font-family: Playfair Display, sans-serif;
-    background-image: url('IMG/fundo.png'); 
+    background-image: url('IMG/fundo2.jpg');
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .perfil {
-    background-image: url(img/perfil.jpg);
+    background-image: url(img/perfil2.jpg);
     background-size: cover;
     border-radius: 50px;
     width: 100px;
@@ -20,7 +20,7 @@ body {
 }
 
 .nome {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     width: 200px;
     height: 30px;
     margin: auto;
@@ -32,7 +32,7 @@ body {
 }
 
 .descricao {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     color: white;
     text-align: center;
     height: 40px;
@@ -42,14 +42,14 @@ body {
     flex-direction: column;
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 .icones {
-    width: 300px;
+    width:300px;
     height: 100px;
     margin: auto;
     display: flex;
-    background-size: cover;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
